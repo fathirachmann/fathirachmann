@@ -19,43 +19,35 @@ export function AboutSection() {
         <div className="grid items-start gap-12 md:grid-cols-2">
           {/* Text */}
           <div
-            className="space-y-5 leading-relaxed text-gray-400 md:order-2"
+            className="space-y-5 leading-relaxed text-gray-400 md:order-2 text-justify"
             data-aos="fade-up"
             data-aos-delay="150"
           >
             <p>
-              I began my career in{" "}
-              <span className="font-medium text-gray-100">
-                mining engineering
-              </span>
-              , where I learned precision, data analysis, and system design.
-              That same structured mindset naturally led me to{" "}
-              <span className="font-medium text-gray-100">
-                software development
-              </span>
-              .
+              I began my career in mining engineering, where I developed a deep
+              sense of precision, data analysis, and system design. That
+              structured way of thinking, combined with my love for creativity
+              and problem-solving, naturally drew me to the world of web
+              development.
             </p>
             <p>
-              After completing Hacktiv8’s{" "}
-              <span className="font-medium text-gray-100">
-                Full Stack Web Development
-              </span>{" "}
-              program and graduating top of my class, I focused on building
-              modern{" "}
-              <span className="font-medium text-gray-100">
-                AI‑powered web applications
-              </span>{" "}
-              using <span className="text-blue-400">React</span>,{" "}
-              <span className="text-blue-400">Node.js</span>, and{" "}
-              <span className="text-blue-400">Go</span>, as well as working
-              extensively with the{" "}
-              <span className="font-medium text-gray-100">MERN Stack</span>{" "}
-              (MongoDB, Express, React, Node.js).
+              After completing Hacktiv8’s Full Stack Web Development program and
+              graduating at the top of my class, I’ve focused on building
+              modern, AI-powered web applications using React, Node.js, and Go,
+              with strong experience in the MERN Stack (MongoDB, Express, React,
+              Node.js).
             </p>
             <p>
-              My approach is practical and detail oriented: clean architecture,
-              reliable performance, and code that simplifies complex ideas for
-              real users.
+              I’m a quick learner and a great “copycat”, I absorb ideas and new
+              things fast, easily adapt to patterns, and turn them into clean,
+              reliable solutions. My curiosity keeps me exploring new
+              technologies and creative approaches to make complex ideas feel
+              simple and intuitive for users.
+            </p>
+            <p>
+              Above all, I enjoy crafting software that balances structure with
+              creativity and systems that work beautifully, solve real problems,
+              and feel effortless to use.
             </p>
           </div>
 

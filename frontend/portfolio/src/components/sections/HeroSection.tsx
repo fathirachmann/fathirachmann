@@ -14,10 +14,12 @@ export function HeroSection() {
             <span className="text-blue-400">Full-Stack Web Developer</span>
           </h1>
           <p className="mt-5 mx-auto max-w-xl leading-relaxed text-gray-400">
-            I love building clean, reliable web apps using React, Node.js, and
-            Go — with MongoDB and PostgreSQL behind the scenes. My focus is on
-            smooth user experiences, solid architecture, and adding a touch of
-            AI when it makes life easier.
+            Driven by the idea that great software should be smart, simple, and
+            crafted with care. I love turning ideas into thoughtful experiences
+            where every detail matters.
+          </p>
+          <p className="mt-3 mx-auto max-w-xl text-gray-500 italic">
+            &ldquo;Curiosity is key, knowledge is power&rdquo;
           </p>
 
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">

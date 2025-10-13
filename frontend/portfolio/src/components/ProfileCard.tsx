@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef, useCallback, useMemo } from "react";
 import "./ProfileCard.css";
+import Image from "next/image";
 
 interface ProfileCardProps {
   avatarUrl: string;
@@ -246,12 +247,16 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
 
     const handleClick = () => {
       if (!enableMobileTilt || location.protocol !== "https:") return;
+      const DeviceMotionEvt = window.DeviceMotionEvent as unknown as
+        | {
+            requestPermission?: () => Promise<string>;
+          }
+        | undefined;
       if (
-        typeof (window.DeviceMotionEvent as any).requestPermission ===
-        "function"
+        DeviceMotionEvt &&
+        typeof DeviceMotionEvt.requestPermission === "function"
       ) {
-        (window.DeviceMotionEvent as any)
-          .requestPermission()
+        DeviceMotionEvt.requestPermission()
           .then((state: string) => {
             if (state === "granted") {
               window.addEventListener(
@@ -260,7 +265,7 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
               );
             }
           })
-          .catch((err: any) => console.error(err));
+          .catch((err: unknown) => console.error(err));
       } else {
         window.addEventListener("deviceorientation", deviceOrientationHandler);
       }
@@ -330,7 +335,7 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
       if (typeof window !== "undefined") {
         window.location.hash = "contact";
       }
-    } catch (_) {
+    } catch {
       // no-op
     }
   }, [onContactClick]);
@@ -346,7 +351,7 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
           <div className="pc-shine" />
           <div className="pc-glare" />
           <div className="pc-content pc-avatar-content">
-            <img
+            <Image
               className="avatar"
               src={avatarUrl}
               alt={`${name || "User"} avatar`}
@@ -360,7 +365,7 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
               <div className="pc-user-info">
                 <div className="pc-user-details">
                   <div className="pc-mini-avatar">
-                    <img
+                    <Image
                       src={miniAvatarUrl || avatarUrl}
                       alt={`${name || "User"} mini avatar`}
                       loading="lazy"
