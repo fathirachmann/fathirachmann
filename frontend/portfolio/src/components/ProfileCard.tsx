@@ -1,8 +1,9 @@
 "use client";
+/* eslint-disable @next/next/no-img-element */
 
 import React, { useEffect, useRef, useCallback, useMemo } from "react";
 import "./ProfileCard.css";
-import Image from "next/image";
+// Using native <img> for flexible layout; avoids next/image width/height requirements in this context
 
 interface ProfileCardProps {
   avatarUrl: string;
@@ -351,7 +352,7 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
           <div className="pc-shine" />
           <div className="pc-glare" />
           <div className="pc-content pc-avatar-content">
-            <Image
+            <img
               className="avatar"
               src={avatarUrl}
               alt={`${name || "User"} avatar`}
@@ -365,7 +366,7 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
               <div className="pc-user-info">
                 <div className="pc-user-details">
                   <div className="pc-mini-avatar">
-                    <Image
+                    <img
                       src={miniAvatarUrl || avatarUrl}
                       alt={`${name || "User"} mini avatar`}
                       loading="lazy"

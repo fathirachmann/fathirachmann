@@ -7,7 +7,7 @@ export function AboutSection() {
       className="text-gray-100 scroll-mt-16 min-h-screen flex items-center"
       data-aos="fade-up"
     >
-      <div className="mx-auto max-w-5xl px-6 py-24">
+      <div className="mx-auto max-w-5xl px-6 py-16 md:py-24">
         <h2
           className="mb-8 inline-block border-b border-gray-800 pb-3 text-3xl font-semibold tracking-tight text-white"
           data-aos="fade-up"
@@ -16,10 +16,10 @@ export function AboutSection() {
           About Me
         </h2>
 
-        <div className="grid items-start gap-12 md:grid-cols-2">
+        <div className="grid items-start gap-8 md:gap-12 md:grid-cols-2">
           {/* Text */}
           <div
-            className="space-y-5 leading-relaxed text-gray-400 md:order-2 text-justify"
+            className="space-y-4 md:space-y-5 leading-relaxed text-gray-400 md:order-2 text-justify"
             data-aos="fade-up"
             data-aos-delay="150"
           >

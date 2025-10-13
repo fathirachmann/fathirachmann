@@ -82,6 +82,7 @@ const projects: ProjectItem[] = [
       "TypeScript",
       "React",
       "Next.js",
+      "TailwindCSS",
       "MongoDB",
       "JWT",
       "Vercel",
@@ -100,6 +101,7 @@ const projects: ProjectItem[] = [
     stack: [
       "JavaScript",
       "React Native",
+      "TailwindCSS",
       "Expo",
       "Redux",
       "Redis",
@@ -121,13 +123,14 @@ const projects: ProjectItem[] = [
     stack: [
       "JavaScript",
       "React",
+      "Vite",
+      "TailwindCSS",
       "Express",
       "Gemini API",
       "Redux",
       "PostgreSQL",
       "Sequelize",
       "AWS",
-      "Vite",
     ],
     site: "https://ip-hck86-news-flash-ai.web.app/login",
     repo: "https://github.com/fathirachmann/IP-HCK86-NewsFlashAI",
@@ -197,9 +200,9 @@ function ProjectCard({
   repo,
 }: ProjectItem) {
   return (
-    <article className="group relative h-[22rem] w-[22rem] shrink-0 overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm flex flex-col">
+    <article className="group relative h-[20rem] w-72 md:h-[22rem] md:w-[22rem] shrink-0 overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm flex flex-col snap-start">
       {/* Screenshot */}
-      <div className="relative h-36">
+      <div className="relative h-32 md:h-36">
         <img
           src={screenshot}
           alt={`${title} screenshot`}
@@ -212,7 +215,7 @@ function ProjectCard({
       {/* Content */}
       <div className="p-4 pb-2 flex-1">
         <div className="relative flex items-start gap-3">
-          <div className="grid h-10 w-10 place-items-center rounded-xl bg-indigo-500/10 ring-1 ring-indigo-400/30">
+          <div className="hidden md:grid h-10 w-10 place-items-center rounded-xl bg-indigo-500/10 ring-1 ring-indigo-400/30">
             <Icon className="h-5 w-5 text-indigo-300" />
           </div>
           <div className="flex-1">
@@ -343,10 +346,10 @@ function InfiniteCarousel({ items, ariaLabel }: InfiniteCarouselProps) {
       aria-label={ariaLabel}
     >
       {/* gradient masks */}
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-[#0b0f1a] to-transparent" />
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-[#0b0f1a] to-transparent" />
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-12 md:w-24 bg-gradient-to-r from-[#0b0f1a] to-transparent" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-12 md:w-24 bg-gradient-to-l from-[#0b0f1a] to-transparent" />
 
-      <div className="flex gap-6">
+      <div className="flex gap-4 md:gap-6 px-2 md:px-0 snap-x snap-mandatory">
         {items.map((p, idx) => (
           <ProjectCard key={`${p.title}-${idx}`} {...p} />
         ))}

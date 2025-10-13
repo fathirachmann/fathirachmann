@@ -7,24 +7,24 @@ type LogoLoopRowProps = { items: SkillItem[]; speed?: number };
 
 function LogoLoopRow({ items, speed = 50 }: LogoLoopRowProps) {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden mx-auto max-w-xs sm:max-w-sm md:max-w-none">
       <div
-        className="flex items-center gap-10 py-4"
+        className="flex items-center gap-6 md:gap-10 py-3 md:py-4"
         style={{
           animation: `loopLeft ${speed}s linear infinite`,
           width: "max-content",
         }}
       >
         {[...items, ...items].map((item, i) => (
-          <div key={i} className="flex items-center gap-3">
+          <div key={i} className="flex items-center gap-2 md:gap-3">
             <Image
               src={item.logo}
               alt={item.name}
-              className="h-10 w-10 object-contain"
+              className="h-6 w-6 md:h-10 md:w-10 object-contain"
               width={40}
               height={40}
             />
-            <span className="text-base font-medium tracking-wide text-gray-200">
+            <span className="text-xs md:text-base font-medium tracking-wide text-gray-200">
               {item.name}
             </span>
           </div>
@@ -215,19 +215,19 @@ export function SkillsSection() {
       data-aos="fade-up"
     >
       <style>{`@keyframes loopLeft { from { transform: translateX(0) } to { transform: translateX(-50%) } }`}</style>
-      <div className="mx-auto max-w-6xl px-6 py-20 text-center">
-        <h2 className="mb-6 font-sans text-4xl font-bold tracking-tight text-white">
+      <div className="mx-auto max-w-6xl px-4 md:px-6 py-14 md:py-20 text-center">
+        <h2 className="mb-5 md:mb-6 font-sans text-3xl md:text-4xl font-bold tracking-tight text-white mx-auto max-w-xs sm:max-w-sm">
           Skills & Tech Stacks
         </h2>
         <LogoLoopRow items={skills} />
 
         {/* Accordion list */}
-        <div className="mx-auto mt-12 max-w-3xl space-y-2 divide-y divide-gray-800/70 border-y border-gray-800/70 text-left">
+        <div className="mx-auto mt-10 md:mt-12 max-w-xs sm:max-w-sm md:max-w-3xl space-y-2 divide-y divide-gray-800/70 border-y border-gray-800/70 text-left">
           {stackList.map((stack, i) => (
             <div key={i} className="bg-transparent p-2">
               <button
                 type="button"
-                className="flex w-full cursor-pointer select-none items-center justify-between px-1 py-3"
+                className="flex w-full cursor-pointer select-none items-center justify-between px-1 py-2 md:py-3"
                 aria-expanded={openIndex === i}
                 aria-controls={`stack-panel-${i}`}
                 onClick={() => setOpenIndex((prev) => (prev === i ? null : i))}
@@ -266,20 +266,22 @@ export function SkillsSection() {
                 className="overflow-hidden transition-[max-height] duration-300 ease-in-out will-change-[max-height]"
               >
                 <div
-                  className={`mt-3 flex flex-wrap items-center gap-4 transition-opacity duration-300 ease-in-out ${
+                  className={`mt-3 flex flex-wrap items-center gap-2 md:gap-4 transition-opacity duration-300 ease-in-out ${
                     openIndex === i ? "opacity-100" : "opacity-0"
                   }`}
                 >
                   {stack.tools.map((tool, j) => (
-                    <div key={j} className="flex items-center gap-2">
+                    <div key={j} className="flex items-center gap-2 md:gap-3">
                       <Image
                         src={tool.logo}
                         alt={tool.name}
-                        className="h-8 w-8 object-contain"
+                        className="h-5 w-5 md:h-8 md:w-8 object-contain"
                         width={32}
                         height={32}
                       />
-                      <span className="text-sm text-gray-300">{tool.name}</span>
+                      <span className="text-xs md:text-sm text-gray-300">
+                        {tool.name}
+                      </span>
                     </div>
                   ))}
                 </div>

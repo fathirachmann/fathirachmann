@@ -6,19 +6,19 @@ export function ContactSection() {
   return (
     <section
       id="contact"
-      className="mx-auto max-w-6xl px-4 text-gray-300 min-h-screen flex flex-col justify-center gap-8 scroll-mt-16"
+      className="mx-auto max-w-6xl px-4 text-gray-300 min-h-screen flex flex-col justify-center gap-6 md:gap-8 scroll-mt-16"
     >
       <header className="text-center">
         <h2 className="text-4xl font-bold tracking-tight text-white">
           Get in Touch!
         </h2>
         <p className="mx-auto mt-2 max-w-2xl text-sm text-gray-400">
-          Interested in my work? Or just wanna say hi? Feel free to reach out
+          Interested in my work? Or just wanna say hi? Feel free to reach me
           using the links below!
         </p>
       </header>
 
-      <div className="mx-auto grid w-full max-w-3xl grid-cols-1 gap-4 sm:grid-cols-2">
+      <div className="mx-auto grid w-full max-w-3xl grid-cols-1 gap-3 sm:gap-4 sm:grid-cols-2">
         {/* Email */}
         <a
           href="mailto:fathirachmann@gmail.com"
