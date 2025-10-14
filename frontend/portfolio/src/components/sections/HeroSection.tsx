@@ -5,7 +5,7 @@ export function HeroSection() {
       className="text-gray-100 scroll-mt-16 min-h-screen flex items-center"
       data-aos="fade-up"
     >
-      <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
+      <div className="mx-auto max-w-6xl px-6 py-10 md:py-24">
         <div className="text-center">
           <h1 className="text-4xl font-semibold tracking-tight text-white md:text-6xl">
             Hello World! I’m Faisal!{" "}
@@ -30,8 +30,7 @@ export function HeroSection() {
               View Projects
             </a>
             <a
-              href="/cv/FaisalFathiRachman_FSJS.pdf"
-              download
+              href="https://drive.google.com/file/d/1I9-cDSn6Uck7IEGAthbVpCI76yR5dNwN/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-lg border border-gray-700 px-5 py-3 font-medium text-gray-200 transition-colors hover:bg-gray-800"

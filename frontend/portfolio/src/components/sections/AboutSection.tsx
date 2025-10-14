@@ -7,7 +7,7 @@ export function AboutSection() {
       className="text-gray-100 scroll-mt-16 min-h-screen flex items-center"
       data-aos="fade-up"
     >
-      <div className="mx-auto max-w-5xl px-6 py-16 md:py-24">
+      <div className="mx-auto max-w-5xl px-6 py-10 md:py-24">
         <h2
           className="mb-8 inline-block border-b border-gray-800 pb-3 text-3xl font-semibold tracking-tight text-white"
           data-aos="fade-up"

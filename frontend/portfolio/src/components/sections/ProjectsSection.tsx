@@ -165,7 +165,7 @@ const STACK_ICON_KEYS: Record<string, string> = {
   "Apollo Client": "apollo",
   "Apollo Server": "apollo",
   Expo: "expo",
-  TailwindCSS: "TailwindCSS",
+  TailwindCSS: "tailwindcss",
   Vercel: "vercel",
   "Google OAuth2": "google",
   "Google Oauth 2": "google",
@@ -420,7 +420,7 @@ export default function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="mx-auto max-w-6xl px-4 text-gray-300 min-h-screen flex flex-col justify-center gap-6 scroll-mt-16"
+      className="mx-auto max-w-6xl px-4 text-gray-300 min-h-screen flex flex-col justify-center gap-5 md:gap-6 scroll-mt-16"
       data-aos="fade-up"
     >
       <header className="text-center">
@@ -443,8 +443,7 @@ export default function ProjectsSection() {
         </p>
         <div className="mt-3">
           <a
-            href="/cv/FaisalFathiRachman_FSJS.pdf"
-            download
+            href="https://drive.google.com/file/d/1I9-cDSn6Uck7IEGAthbVpCI76yR5dNwN/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-md border border-white/10 bg-white/5 px-3 py-2 text-sm text-gray-200 hover:bg-white/10"
