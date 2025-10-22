@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Faisal Fathi Rachman</h1>
-<h3 align="center">🚀 Full-stack Developer | 💡 AI Enthusiast | 🌏 From Indonesia</h3>
+<h1 align="center">Hello World!, I'm Faisal Fathi Rachman</h1>
+<h3 align="center">Full-stack Developer | AI Enhanced-Dev | From Indonesia</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=fathirachmann&label=Profile%20Views&color=0e75b6&style=flat" alt="fathirachmann" />
@@ -11,7 +11,7 @@
 ---
 
 ### 👨‍💻 About Me
-- 🌱 Currently diving into **TypeScript, Next.js & GraphQL**
+- 🌱 Currently diving into **Golang, Gin Gonic & GORM**
 - 🎯 Passionate about **building scalable apps** and **experimenting with AI integration**
 - 📫 Reach me at **faisal.fathirachman@gmail.com**
 - ⚡ Fun fact: *I’m a super-fast learner & a professional copycat (in a good way 😉)*
@@ -38,7 +38,7 @@
 
 ### 🛠️ Languages & Tools
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,graphql,redux,mongodb,postgres,mysql,tailwind,html,css,docker,aws,gcp,firebase,git" />
+  <img src="https://skillicons.dev/icons?i=go,gin,gorm,ts,js,react,nextjs,nodejs,express,graphql,redux,mongodb,postgres,mysql,tailwind,html,css,docker,aws,gcp,firebase,git" />
 </p>
 
 ---
