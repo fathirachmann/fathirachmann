@@ -64,9 +64,6 @@
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=fathirachmann&theme=tokyo-night&hide_border=true" />
 </div>
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=fathirachmann&theme=tokyonight&hide_border=true" alt="streak" />
-</div>
 
 ---
 
@@ -75,10 +72,6 @@
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=fathirachmann&theme=tokyonight" alt="profile-details" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=fathirachmann&theme=tokyonight" alt="repos-per-language" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=fathirachmann&theme=tokyonight&hide_border=true" alt="streak" />
 </div>
 
 ---
