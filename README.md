@@ -54,23 +54,21 @@
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| **📰 NewsFlashAI** | AI-powered news summarizer with sentiment & impact analysis. | ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) |
-| **🎮 QuizArena** | Real-time multiplayer quiz game with AI-generated questions. | ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat&logo=socket.io&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) |
-| **📷 Instageram** | A full-featured social media clone (Hacktivgram). | ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white) ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB) |
+| **🌿 Florabyte** | A Plant Analyzer web app powered by AI vision. | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white) ![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat&logo=google&logoColor=white) |
+| **🎮 Nintendo Clone** | A clone of the Nintendo Store e-commerce. | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) |
+| **📷 Instageram** | Full-featured social media mobile app (React Native). | ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB) ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white) |
 
 ---
 
-### 📊 GitHub Analytics
-
+### 📊 GitHub Stats
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fathirachmann&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" height="150" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fathirachmann&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" height="150" alt="top-langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=fathirachmann&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fathirachmann&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="top-langs" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=fathirachmann&theme=tokyonight&hide_border=true&bg_color=00000000" alt="streak" />
+  <img src="https://streak-stats.demolab.com?user=fathirachmann&theme=tokyonight&hide_border=true" alt="streak" />
 </div>
-
 ---
 
 <p align="center">✨ <i>"Code. Learn. Iterate."</i> ✨</p>
