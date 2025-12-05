@@ -60,15 +60,14 @@
 
 ---
 
-### 📊 GitHub Stats
+### 📈 Coding Activity
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fathirachmann&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fathirachmann&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="top-langs" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fathirachmann&theme=tokyo-night&hide_border=true" />
 </div>
-
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=fathirachmann&theme=tokyonight&hide_border=true" alt="streak" />
 </div>
+
 ---
 
 <p align="center">✨ <i>"Code. Learn. Iterate."</i> ✨</p>
