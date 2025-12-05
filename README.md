@@ -38,7 +38,7 @@
 
 **Backend & Database**
 <br>
-<img src="https://skillicons.dev/icons?i=nodejs,express,gin,gorm,graphql,postgres,mysql,mongodb,firebase" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,graphql,postgres,mysql,mongodb,firebase" />
 
 **Frontend**
 <br>
@@ -76,4 +76,4 @@
 
 ---
 
-<p align="center">✨ <i>"Code. Learn. Iterate."</i> ✨</p>
+<p align="center">✨ <i>"Curiosity is key, knowledge is power"</i> ✨</p>
