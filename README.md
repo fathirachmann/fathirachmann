@@ -70,4 +70,17 @@
 
 ---
 
+### 📊 GitHub Analytics
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=fathirachmann&theme=tokyonight" alt="profile-details" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=fathirachmann&theme=tokyonight" alt="repos-per-language" />
+</div>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=fathirachmann&theme=tokyonight&hide_border=true" alt="streak" />
+</div>
+
+---
+
 <p align="center">✨ <i>"Code. Learn. Iterate."</i> ✨</p>
